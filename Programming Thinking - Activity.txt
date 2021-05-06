@@ -1,0 +1,34 @@
+
+You just grabbed all the mail from your mailbox.   
+You want to go through it all, and decide what to do with each piece of mail.Write the pseudo code for your process of going through the mail
+What are the types of mail you might get?  Junk mail, letters from friends, tax documents, bills.
+Do you get your housemates mail? Your partners?  Your neighbors?  Make acondition for each type you might get(e.g. if it’s junk mail then I throw it away)
+What steps do you take to determine what type of mail it is?  What do you do with all the paper?  Throw it away, recycle it, shred it, put it in a filingcabinet?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+grab mail from mailbox
+bring inside house
+while mail remains begin sorting into two piles
+    if mail is mine put in first pile
+    else mail that is not mine put in second pile
+
+sort importance of first pile
+while mail remains then open any unopened mail
+if mail looks like a bill, statement or tax document sort into a keep pile
+    if mail is a bill, statement or tax document then contents will remain in keep pile while the opened envelope in toss pile
+    else mail is junk mail disguised as bill, statement, or tax document then put both envelope and mail in toss pile
+if mail looks like advertisement, junk mail, or flyer then sort into toss pile
+    if mail is advertisement, junk mail, or flyer then keep in toss pile
+    else mail is actually a bill, statement or tax document then put into keep pile
+any mail in the toss pile gets put into paper shredder
+any mail in keep pile gets put on my desk to be dealt with later
+
+
+sort importance of second pile
+    if mail is for roommate 1 then put into new first pile
+        inform roommate 1 about stack of mail
+    else if mail if for roommate 2 then put into new second pile
+        inform roommate 2 about stack of mail
+    else if mail is for neighbors then put into new third pile
+        take mail over to neighbors house
+    else mail is for previous resident then put into new fourth pile
+        anything in fourth pile gets put into paper shredder
